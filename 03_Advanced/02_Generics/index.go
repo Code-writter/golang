@@ -25,7 +25,11 @@ func main() {
 	// bool1, bool2 := printBool(true, true)
 
 	num1 , num2 := printAll(4, 50)
-	string1, string2 := printAll("Ronoroa", "Zoro")
+	// num1 , num2 := printAll[int](4, 50)
+
+	// string1, string2 := printAll("Ronoroa", "Zoro")
+	string1, string2 := printAll[string]("Ronoroa", "Zoro")
+
 	bool1, bool2 := printAll(true, true)
 
 	fmt.Println(num1, num2)
